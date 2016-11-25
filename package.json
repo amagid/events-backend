@@ -1,0 +1,32 @@
+{
+  "name": "events-backend",
+  "version": "0.0.0",
+  "description": "Events tracking system for BigPie.",
+  "author": {
+    "name": "Aaron Magid",
+    "email": "ahm64@case.edu",
+    "url": "github.com/amagid"
+  },
+  "dependencies": {
+    "express": "~4.14.0",
+    "bluebird": "~3.4.6",
+    "express-jwt": "~5.1.0",
+    "express-validator": "~3.0.0",
+    "jsonwebtoken": "~7.1.9",
+    "sequelize": "~3.27.0",
+    "winston": "~2.3.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-preset-latest": "^6.16.0",
+    "body-parser": "~1.15.2",
+    "eslint": "^3.10.2",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^2.0.1",
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}
