@@ -1,6 +1,14 @@
 # BigPie Events Backend
 This server application is designed to augment the existing BigPie application to be able to handle the concept of a Fundraising Event.
 
+## Important Issues
+
+1) A major design consideration is whether or not to store Merchant and Nonprofit information in our database if it also exists in the BigPie live database. If we store the information, fewer queries to the live database will be required and that means a faster live app as well as fewer potential security vulnerabilities. However, there is then a chance that the data in our database can become outdated, so the system will have to run regular queries to the live database to keep the info updated. Alternatively, I could just store the MongoDB ID of the Merchant or Nonprofit, and if more information is requested by a user (this includes listing merchants) I could then run a separate query to grab the detailed merchant information from the live app database. Either way will function with its own set of pros and cons.
+
+2) We could potentially combine all of the merchant_sizes, nonprofit_sizes and attendance_levels tables into one sizes table, but then each of the categories would be restricted to use the same sizes. Thoughts?
+
+3) Leaving email templates for V2
+
 ## Database Description
 The primary database tables are as follows:
 
