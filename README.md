@@ -4,20 +4,20 @@ This server application is designed to augment the existing BigPie application t
 ## Database Description
 The primary database tables are as follows:
 
-1) events
-2) merchants
-3) nonprofits
-4) rsvps
+1) events  
+2) merchants  
+3) nonprofits  
+4) rsvps  
 
 With enumeration tables:
 
-1) attendance_levels
-2) merchant_sizes
-3) nonprofit_sizes
-4) event_types
-5) merchant_types
-6) nonprofit_types
-7) cost_groups
+1) attendance_levels  
+2) merchant_sizes  
+3) nonprofit_sizes  
+4) event_types  
+5) merchant_types  
+6) nonprofit_types  
+7) cost_groups  
 
 And join tables:
 
