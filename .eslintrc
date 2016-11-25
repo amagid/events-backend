@@ -4,5 +4,8 @@
     "plugins": [
         "standard",
         "promise"
-    ]
+    ],
+    "globals": {
+        "logger": false
+    }
 }
