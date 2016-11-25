@@ -1,0 +1,8 @@
+{"level":"info","message":"Logger up and running","timestamp":"2016-11-25T16:52:24.277Z"}
+{"level":"info","message":"Logger up and running","timestamp":"2016-11-25T16:52:50.932Z"}
+{"level":"info","message":"Logger up and running","timestamp":"2016-11-25T17:03:41.517Z"}
+{"level":"info","message":"Logger up and running","timestamp":"2016-11-25T17:07:23.693Z"}
+{"level":"error","message":"Connection to Database Failed. Reason: SequelizeHostNotFoundError: getaddrinfo ENOTFOUND locahost locahost:3306","timestamp":"2016-11-25T17:07:26.088Z"}
+{"level":"error","message":"Connection to Database Failed. Reason: SequelizeHostNotFoundError: getaddrinfo ENOTFOUND locahost locahost:3306","timestamp":"2016-11-25T17:11:45.169Z"}
+{"level":"info","message":"Connected to Database.","timestamp":"2016-11-25T17:18:14.498Z"}
+{"level":"info","message":"Connected to Database.","timestamp":"2016-11-25T17:19:26.199Z"}
